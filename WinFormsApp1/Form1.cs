@@ -6,5 +6,12 @@ namespace WinFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("2222222222222");
+            MessageBox.Show("3333333");
+            MessageBox.Show("44444");
+        }
     }
 }
