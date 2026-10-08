@@ -32,13 +32,15 @@
             button2 = new Button();
             button3 = new Button();
             button4 = new Button();
+            btnNai = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(278, 100);
+            button1.Location = new Point(227, 83);
+            button1.Margin = new Padding(2, 2, 2, 2);
             button1.Name = "button1";
-            button1.Size = new Size(112, 34);
+            button1.Size = new Size(92, 28);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
@@ -46,40 +48,54 @@
             // 
             // button2
             // 
-            button2.Location = new Point(278, 196);
+            button2.Location = new Point(227, 163);
+            button2.Margin = new Padding(2, 2, 2, 2);
             button2.Name = "button2";
-            button2.Size = new Size(112, 34);
+            button2.Size = new Size(92, 28);
             button2.TabIndex = 1;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(617, 381);
+            button3.Location = new Point(505, 318);
+            button3.Margin = new Padding(2, 2, 2, 2);
             button3.Name = "button3";
-            button3.Size = new Size(112, 34);
+            button3.Size = new Size(92, 28);
             button3.TabIndex = 2;
             button3.Text = "buttonxzy";
             button3.UseVisualStyleBackColor = true;
             // 
             // button4
             // 
-            button4.Location = new Point(497, 133);
+            button4.Location = new Point(407, 111);
+            button4.Margin = new Padding(2, 2, 2, 2);
             button4.Name = "button4";
-            button4.Size = new Size(161, 64);
+            button4.Size = new Size(132, 53);
             button4.TabIndex = 3;
             button4.Text = "buttonxzy1";
             button4.UseVisualStyleBackColor = true;
             // 
+            // btnNai
+            // 
+            btnNai.Location = new Point(340, 216);
+            btnNai.Name = "btnNai";
+            btnNai.Size = new Size(94, 29);
+            btnNai.TabIndex = 4;
+            btnNai.Text = "奶龙";
+            btnNai.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(11F, 24F);
+            AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(655, 375);
+            Controls.Add(btnNai);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
+            Margin = new Padding(2, 2, 2, 2);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -91,5 +107,6 @@
         private Button button2;
         private Button button3;
         private Button button4;
+        private Button btnNai;
     }
 }
